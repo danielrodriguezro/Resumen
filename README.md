@@ -21,14 +21,19 @@ Sobrecarga de funciones: Esto se llama al proceso donde asignamos el mismo ident
 Ciclo de vida de variables:
 
 “Variables de instancia:
+
 •	–  Se crean cuando se crea el objeto que las contiene. 
 •	–  Se inicializan por defecto si no se hace de modo explicito: • 0 para números, "false" para booleano, "null" para objetos. 
 •	–  Se destruyen cuando el recolector de basura de Java no encuentra referencias activas para el objeto. 
+
 Variables estáticas: 
+
 •	– Se crean cuando la clase se usa por primera vez. 
 •	– Se inicializan por defecto si no se hace de modo explicito: • 0 para números, "false" para booleano, "null" para objetos 
 •	– Suelen existir para el resto del programa (salvo que no esté cargado).
+
 Variables locales (en un método o bloque) 
+
 •	– Existen desde el punto de definición hasta el final del bloque • Los bloques se definen mediante llaves { }
 • Los bloques se suelen utilizar para definir: 
 •	– El cuerpo del método
